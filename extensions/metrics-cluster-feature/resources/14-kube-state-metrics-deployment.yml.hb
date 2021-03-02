@@ -26,7 +26,7 @@ spec:
                 - key: kubernetes.io/arch
                   operator: In
                   values:
-                  - amd64
+                  - amd
               - matchExpressions:
                 - key: beta.kubernetes.io/os
                   operator: In
@@ -35,7 +35,7 @@ spec:
                 - key: beta.kubernetes.io/arch
                   operator: In
                   values:
-                  - amd64
+                  - amd
       serviceAccountName: kube-state-metrics
       containers:
       - name: kube-state-metrics
